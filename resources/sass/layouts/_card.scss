@@ -1,0 +1,11 @@
+ul {
+    display: grid;
+    grid-template-columns: repeat(5, 250px);
+    column-gap: 3rem;
+    row-gap: 6rem;
+}
+
+li {
+    background-color: lightcoral;
+    padding: 1rem;
+}

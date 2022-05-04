@@ -1,0 +1,27 @@
+ul {
+  display: grid;
+  grid-template-columns: repeat(5, 250px);
+  -moz-column-gap: 3rem;
+       column-gap: 3rem;
+  row-gap: 6rem;
+}
+
+li {
+  background-color: lightcoral;
+  padding: 1rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
